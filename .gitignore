@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.DS_Store
+*.egg-info/
+.env
+.venv/
+my_env/
+
+# Data & Models
+data/processed/
+data/live/*.csv
+models/*.pkl
+reports/*.html
+reports/*.json
+
+# DVC
+.dvc/cache/
+.dvc/tmp/
